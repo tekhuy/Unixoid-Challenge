@@ -1,0 +1,500 @@
+   50  ls
+   51  cd spec
+   52  ls
+   53  cd ..
+   54  ls
+   55  cd spec
+   56  ls
+   57  rspec
+   58  tree
+   59  cd ..
+   60  tree
+   61  rspec
+   62  rspec
+   63  ls
+   64  cd ..
+   65  ls
+   66  cd ..
+   67  cd ..
+   68  ls
+   69  ls -a
+   70  open .rspec
+   71  cd Projects
+   72  ls
+   73  cd fizzbuzz
+   74  ls
+   75  cd Fizzbuzz
+   76  tree
+   77  rspec
+   78  rspec
+   79  rspec
+   80  irb
+   81  pwd
+   82  tree
+   83  cd Projects
+   84  cd fizzbuzz
+   85  cd Fizzbuzz
+   86  ls
+   87  irb
+   88  rspec
+   89  echo $TESTING_MAKERS
+   90  ls
+   91  pwd
+   92  echo $TESTING_MAKERS
+   93  echo TESTING_MAKERS
+   94  $TESTING_MAKERS
+   95  echo $TESTING_MAKERS
+   96  ls
+   97  mkdir "Unixoid Challenge"
+   98  cd "Unixoid Challenge"
+   99  git init
+  100  ls
+  101  echo "This is Week One Task - The Unixoid Challenge" > README
+  102  ls
+  103  cat README
+  104  mkdir -P my/private/files
+  105  mkdir ~P my/private/files
+  106  ls
+  107  cd ~P
+  108  ls
+  109  cd ..
+  110  rmdir ~P
+  111  ls
+  112  man mkdir
+  113  ls
+  114  mkdir -p my/private/files
+  115  ls
+  116  mkdir -p my/public/files
+  117  ls
+  118  cd my
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd ..
+  123  ls
+  124  cd "Unixoid Challenge"
+  125  ls
+  126  touch "t-vars.env" > ./my/private/files
+  127  touch "t-vars.env" > "./my/private/files"
+  128  touch "t-vars.env"
+  129  ls
+  130  echo "List of env vars that begin with T" > t-vars.env
+  131  ls
+  132  cat t-vars.env
+  133  mv t-vars.env ./my/private/files
+  134  ls
+  135  cd my
+  136  cd private
+  137  cd files
+  138  ls
+  139  cd ../../..
+  140  ls
+  141  printenv
+  142  env
+  143  declare -xp
+  144  gem install unixoid-challenge
+  145  sudo gem install unixoid-challenge
+  146  ls -la
+  147  ls
+  148  cd my
+  149  cd private
+  150  cd files
+  151  ls
+  152  echo "\n" > t-vars.env
+  153  ls
+  154  cat t-vars.env
+  155  echo "List of env vars that begin with T"\n > t-vars.env
+  156  ls
+  157  cat t-vars.env
+  158  env
+  159  echo $HOME
+  160  echo T
+  161  echo $PATH
+  162  export TESTING_MAKERS=working in such a way that it is still available when you open a new shell
+  163  echo $TESTING_MAKERS
+  164  echo $TESTING_MAKERS
+  165  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  166  ps x
+  167  ps x | grep bash
+  168  ls
+  169  env
+  170  man ls
+  171  cat > -=vars.env
+  172  ls
+  173  cat -=vars.env
+  174  ls
+  175  cat -=vars.env
+  176  ls
+  177  cat t-vars.env
+  178  git add t-vars.env
+  179  git status
+  180  git rm t-vars.env
+  181  git rm t-vars.env to unstage
+  182  git status
+  183  git rm --cached t-vars.env
+  184  git status
+  185  app "Hello" > t-vars.env
+  186  echo "Hello" >> t-vars.env
+  187  ls
+  188  cat t-vars.env
+  189  cat t-vars.env
+  190  List of env vars that begin with T
+  191  TERM_PROGRAM=APPLE_TERMINAL
+  192  TERM=xterm-256color
+  193  TESTING_MAKERS=working
+  194  TMPDIR=/var/folders/hs/vsyj26jn1sb03v12nvszrg000000gn/T/Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.Hgw8hDA81s/RENDER
+  195  TERM_PROGRAM_VERSION=343
+  196  TERM_SESSION_ID=455C84F2-16CD-450B-B544-9589631142E6
+  197  ls
+  198  cat t-vars.env
+  199  List of env vars that begin with T
+  200  TERM_PROGRAM=APPLE_TERMINAL
+  201  TERM=xterm-256color
+  202  TESTING_MAKERS=working
+  203  TMPDIR=/var/folders/hs/vsyj26jn1sb03v12nvszrg000000gn/T/Apple_PubSub_Socket_Render=/private/tmp/com.apple.launchd.Hgw8hDA81s/RENDER
+  204  TERM_PROGRAM_VERSION=343
+  205  TERM_SESSION_ID=455C84F2-16CD-450B-B544-9589631142E6
+  206  `date`
+  207  date
+  208  echo "Today is `date`"
+  209  ls
+  210  echo "List of en vars that begin with T\n `TERM_PROGRAM`\n `TERM`\n `TEMPDIR`\n `TERM_PROGRAM_VERSION`\n `TERM_SESSION_ID`\n" > t-vars.env
+  211  TERM
+  212  echo TERM
+  213  (TERM)
+  214  ls
+  215  echo $(w)
+  216  echo `USER`
+  217  echo $USER
+  218  echo "List of en vars that begin with T\n `TERM_PROGRAM`\n `TERM`\n `TEMPDIR`\n `TERM_PROGRAM_VERSION`\n `TERM_SESSION_ID`\n" > t-vars.env
+  219  echo $TERM
+  220  echo "List of en vars that begin with T\n $TERM_PROGRAM\n $TERM\n $TEMPDIR\n $TERM_PROGRAM_VERSION\n $TERM_SESSION_ID\n" > t-vars.env
+  221  cat t-vars.env
+  222  echo "List of en vars that begin with T\n TERM_PROGRAM=$TERM_PROGRAM\n TERM=$TERM\n TEMPDIR=$TEMPDIR\n TERM_PROGRAM_VERSION=$TERM_PROGRAM_VERSION\n TERM_SESSION=$TERM_SESSION_ID\n" > t-vars.env
+  223  echo "List of en vars that begin with T\n  TERM_PROGRAM=$TERM_PROGRAM\n  TERM=$TERM\n  TEMPDIR=$TEMPDIR\n  TERM_PROGRAM_VERSION=$TERM_PROGRAM_VERSION\n  TERM_SESSION=$TERM_SESSION_ID\n" > t-vars.env
+  224  echo "List of en vars that begin with T\nTERM_PROGRAM=$TERM_PROGRAM\nTERM=$TERM\nTEMPDIR=$TEMPDIR\nTERM_PROGRAM_VERSION=$TERM_PROGRAM_VERSION\nTERM_SESSION=$TERM_SESSION_ID\n" > t-vars.env
+  225  echo "List of en vars that begin with T"\n "TERM_PROGRAM=$TERM_PROGRAM"\n "TERM=$TERM\nTEMPDIR=$TEMPDIR"\n "TERM_PROGRAM_VERSION=$TERM_PROGRAM_VERSION"\n "TERM_SESSION=$TERM_SESSION_ID"\n > t-vars.env
+  226  echo "List of en vars that begin with T"\n "TERM_PROGRAM=$TERM_PROGRAM"\n "TERM=$TERM"\n "TEMPDIR=$TEMPDIR"\n "TERM_PROGRAM_VERSION=$TERM_PROGRAM_VERSION"\n "TERM_SESSION_ID=$TERM_SESSION_ID"\n > t-vars.env
+  227  clear
+  228  env
+  229  env | grep *T
+  230  env | grep *T -print
+  231  pwd
+  232  ls
+  233  env | grep ^T > t-vars.env
+  234  cat t-vars.env 
+  235  echo hello
+  236  find ~ -name "*.txt" -print
+  237  find ~ -name "*.txt" -print | wc -l
+  238  find ~ -name "*.txt" -print
+  239  find ~ -name "*.txt" -print | wc -l
+  240  find . -name "*.txt" -print | wc -l
+  241  env
+  242  history
+  243  cd ..
+  244  cd ../..
+  245  cd ..
+  246  cd Projects/fizzbuzz/fizzbuzz
+  247  rspec
+  248  cd ..
+  249  ls
+  250  cd ..
+  251  ls
+  252  echo -e "List of logged users and what they are doing:\n $(w)"
+  253  echo -e
+  254  man ls
+  255  ls
+  256  cd Projects/
+  257  ls
+  258  cd fizzbuzz/
+  259  cd fizzbuzz
+  260  ls
+  261  tree
+  262  rspec
+  263  pushd ~
+  264  ls -a
+  265  open .rspec
+  266  popd
+  267  rspec
+  268  rspec
+  269  tree
+  270  rspec
+  271  subl .
+  272  clear
+  273  irb
+  274  cd ..
+  275  ls
+  276  irb
+  277  irb
+  278  irb
+  279  irb
+  280  cd Projects/fizzbuzz/fizzbuzz
+  281  rspec
+  282  ls
+  283  cd ~
+  284  ls
+  285  ls -a
+  286  cat .rspec
+  287  open .rspec
+  288  cd Projects/fizzbuzz/fizzbuzz
+  289  rspec
+  290  ls
+  291  cd ..
+  292  ls
+  293  rm attone
+  294  rm attone_spec.rb 
+  295  rm fizzbuzz
+  296  rm fizzbuzz_spec.rb 
+  297  rm attone.rb 
+  298  rm fizzbuzz.rb 
+  299  rm README 
+  300  ls
+  301  tree
+  302  mv Fizzbuzz/lib .
+  303  tree
+  304  mv Fizzbuzz/spec .
+  305  mv Fizzbuzz/README.md .
+  306  tree
+  307  rmdir Fizzbuzz/
+  308  tree
+  309  cd Fizzbuzz/
+  310  ls
+  311  cd ..
+  312  rm -rf Fizzbuzz/
+  313  tree
+  314  cd ..
+  315  ls
+  316  cd fizzbuzz/
+  317  tree
+  318  rspec
+  319  git init
+  320  sudo git init
+  321  git remote -v
+  322  git push
+  323  git push
+  324  git add .
+  325  git add --a
+  326  git commit -m 'first'
+  327  git push
+  328  git remote -v
+  329  git remote add origin https://github.com/tekhuy/fizzbuzz.git
+  330  git remote rm origin
+  331  git remote -v
+  332  git remote add origin https://github.com/tekhuy/fizzbuzz.git
+  333  git push -u origin master
+  334  ls
+  335  cd Projects/
+  336  ls
+  337  cd fizzbuzz/
+  338  ls
+  339  irb
+  340  tree
+  341  rspec
+  342  tree
+  343  rspec
+  344  ls
+  345  rspec
+  346  clear
+  347  rspec
+  348  ls -la
+  349  ls -a
+  350  rspec
+  351  tree
+  352  rspec
+  353  cd ~
+  354  ls
+  355  ls -a
+  356  open .rspec
+  357  cat .rsepc
+  358  cat .rspec
+  359  cd Projects/fizzbuzz
+  360  ls
+  361  tree
+  362  rspec
+  363  cd ~
+  364  gem install rspec
+  365  sudo gem install rspec
+  366  ls -a
+  367  open .rspec
+  368  cd Projects/fizzbuzz
+  369  tree
+  370  rspec
+  371  cd ..
+  372  ls
+  373  cd ~
+  374  cd Library
+  375  ls
+  376  cd Ruby
+  377  cd ..
+  378  ls
+  379  cd ..
+  380  cd ..
+  381  ls
+  382  cd Library
+  383  ls
+  384  cd Ruby
+  385  ls
+  386  cd Gems
+  387  ls
+  388  cd 2.0.0
+  389  ls
+  390  cd gems
+  391  ls
+  392  cd ..
+  393  ls
+  394  cd gems
+  395  rm rspec
+  396  cd gems
+  397  cd gems
+  398  ls
+  399  cd Projects/fizzbuzz
+  400  ls
+  401  tree
+  402  rspec
+  403  cd Projects
+  404  ls
+  405  cd Fizzbuzz
+  406  ls
+  407  irb
+  408  irb
+  409  ls
+  410  irb
+  411  cd Projects/fizzbuzz
+  412  ls
+  413  tree
+  414  rpsec
+  415  cd ~
+  416  ls -a
+  417  sudo gem install rspec
+  418  ls -a
+  419  open .rspec
+  420  cd Projects/fizzbuzz
+  421  tree
+  422  rspec
+  423  git status
+  424  cd Projects/fizzbuzz
+  425  git status
+  426  cd Projects/fizzbuzz
+  427  rspec
+  428  tree
+  429  rspec
+  430  rspec
+  431  rspec
+  432  s
+  433  ls
+  434  cd Projects
+  435  cd fizzbuzz
+  436  ls
+  437  tree
+  438  rspec
+  439  rspec
+  440  rspec
+  441  rspec
+  442  rspec
+  443  rspec
+  444  rspec
+  445  rspec
+  446  rspec
+  447  rspec
+  448  rspec
+  449  rspec
+  450  rspec
+  451  rspec
+  452  rspec
+  453  rspec
+  454  rspec
+  455  rspec
+  456  cd Projects/fizzbuzz
+  457  ls
+  458  echo "This is a game where every multiple of 3 returns "fizz", multiples of 5 return "buzz" and multiples of 15 return "fizzbuzz". I am attempting to erase and re-write the program daily, timing myself and committing the time onto GitHub to track my pb" > README.md
+  459  ls
+  460  cat README.md
+  461  git commit
+  462  git add README.md
+  463  git commit -m 'README update'
+  464  git push
+  465  git status
+  466  clear
+  467  pwd
+  468  mkdir "Unixoid Challenge"
+  469  cd "Unixoid Challenge"
+  470  ls
+  471  git init
+  472  git add "Unixoid Challenge"
+  473  cd ..
+  474  ls
+  475  git add "Unixoid Challenge"
+  476  git init
+  477  git add "Unixoid Challenge"
+  478  git commit -m "first attempt"
+  479  git status
+  480  git remote add origin https://github.com/tekhuy/Unixoid-Challenge.git
+  481  git push -u origin master
+  482  git push
+  483  echo "This is the week 1 Pre-Course Challenge" > README.txt
+  484  ls
+  485  cat README.txt
+  486  cd Unixoid Challenge
+  487  cd "Unixoid Challenge"
+  488  ls
+  489  git init
+  490  git add README.txt
+  491  git commit -m "README"
+  492  git push
+  493  git remote add origin https://github.com/tekhuy/Unixoid-Challenge.git
+  494  git push
+  495  git push
+  496  git add README.txt
+  497  git commit -m "README"
+  498  git push
+  499  git status
+  500  git push -u origin master
+  501  cd "Unixoid Challenge"
+  502  mkdir -P my/private/files
+  503  mkdir -p my/private/files
+  504  mkdir -p my/public/files
+  505  ls
+  506  cd my
+  507  ls
+  508  cd ..
+  509  ls
+  510  echo t-vars.env
+  511  echo "List of env vars that begin with T" > t-vars.env
+  512  echo "List of env vars that begin with T"\n > t-vars.env
+  513  ls
+  514  mv t-vars.env > "./my/private/files"
+  515  cp t-vars.env > "./my/private/files"
+  516  cp t-vars.env > ./my/private/files
+  517  mv t-vars.env my/private/files
+  518  ls
+  519  env | grep ^T >> my/private/files/t-vars.env
+  520  echo "export TESTING_MAKERS=working" >> ~.bash_profile
+  521  echo $TESTING_MAKERS
+  522  env | grep ^T | wc -l >> my/public/files/t-vars.count
+  523  pushd my/private/files
+  524  ls
+  525  chmod go-r t-vars.env
+  526  cd ..
+  527  pwd
+  528  cd ../..
+  529  ls
+  530  cd my/public/files
+  531  ls
+  532  pushd my/private/files
+  533  cd ../..
+  534  ls
+  535  cd private
+  536  ls
+  537  chmod go-xr files
+  538  cd files
+  539  popd
+  540  ls
+  541  pushd my/public/files
+  542  chmod a+rw t-vars.count
+  543  popd
+  544  ls
+  545  touch my/public/files/text-files-count.txt
+  546  find ~ -name "*.txt" -print | wc -l >> my/public/files/text-files-count.txt
+  547  touch my/private/files/first-three-env.txt
+  548  env | sort | head -3 >> my/private/files/first-three-env.txt
+  549  history > my/private/files/commands.txt
